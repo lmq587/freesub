@@ -6,8 +6,22 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - lmq8587
   type: vless
-  server: 188.114.97.6
+  server: 104.18.38.47
   port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
@@ -18,32 +32,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - lmq8587
-  type: vless
-  server: 172.66.170.53
-  port: 8880
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: summer-hat-ba5c.430.workers.dev
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - lmq8587
-  type: vless
-  server: 104.18.34.245
-  port: 8880
-  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: dawn-waterfall-6052.360-001.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,7 +39,6 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - lmq8587
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - lmq8587
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -59,6 +46,5 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - lmq8587
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - lmq8587
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - lmq8587
 rules:
 - MATCH,PROXIES
