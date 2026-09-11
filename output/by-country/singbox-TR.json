@@ -6,28 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 02 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 03 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 04 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 05 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 06 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 07 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 08 - lmq8587"
+        "🇹🇷 土耳其 (Turkey) 01 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 02 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 03 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 04 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 05 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 06 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 07 - lmq8587",
-        "🇹🇷 土耳其 (Turkey) 08 - lmq8587"
+        "🇹🇷 土耳其 (Turkey) 01 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
