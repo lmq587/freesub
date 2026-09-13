@@ -6,52 +6,26 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - lmq8587
   type: ss
-  server: 195.133.5.102
-  port: 50111
-  cipher: aes-256-gcm
-  password: 895b4b796a357570
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - lmq8587
-  type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
   udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 02 - lmq8587
+  type: vless
+  server: 63.141.128.22
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
 - name: 🇷🇺 俄罗斯 (Russia) 03 - lmq8587
-  type: vless
-  server: 172.64.32.108
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
-  type: ss
-  server: 195.133.23.200
-  port: 50111
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
-  type: vless
-  server: 172.64.154.8
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
   type: vless
   server: 46.8.200.91
   port: 443
@@ -65,6 +39,75 @@ proxies:
     path: /casc
     headers:
       Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
+  type: ss
+  server: 46.17.40.234
+  port: 50111
+  cipher: aes-256-gcm
+  password: bdb313adf74c2ede
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
+  type: ss
+  server: 195.133.23.200
+  port: 50111
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
+  type: ss
+  server: 195.133.5.102
+  port: 50111
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 07 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 934f2038-17f8-4ec5-9204-8381e19fc6e3
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiVXFEMlhKZVY4dzNoTUtpZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: tight-bush-0bb4.bshxyyxhdjdggb.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 08 - lmq8587
+  type: ss
+  server: 195.58.48.137
+  port: 50111
+  cipher: aes-256-gcm
+  password: 8ad9d72a5571df86
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 09 - lmq8587
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 10 - lmq8587
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: 78.159.247.246
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,6 +119,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 07 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 08 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 09 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 10 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,5 +134,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 07 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 08 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 09 - lmq8587
+  - 🇷🇺 俄罗斯 (Russia) 10 - lmq8587
 rules:
 - MATCH,PROXIES
