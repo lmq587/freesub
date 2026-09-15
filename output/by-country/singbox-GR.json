@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 CL 01 - lmq8587"
+        "🇬🇷 GR 01 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - lmq8587"
+        "🇬🇷 GR 01 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },

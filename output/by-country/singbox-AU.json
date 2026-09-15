@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 澳大利亚 (Australia) 01 - lmq8587"
+        "🇦🇺 澳大利亚 (Australia) 01 - lmq8587",
+        "🇦🇺 澳大利亚 (Australia) 02 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - lmq8587"
+        "🇦🇺 澳大利亚 (Australia) 01 - lmq8587",
+        "🇦🇺 澳大利亚 (Australia) 02 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
