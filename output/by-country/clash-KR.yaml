@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 02 - lmq8587
   type: vless
   server: 151.245.106.49
@@ -27,10 +27,20 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 03 - lmq8587
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 04 - lmq8587
   type: vless
-  server: 104.19.215.97
+  server: 104.18.42.54
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -42,13 +52,16 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 04 - lmq8587
-  type: ss
-  server: 141.164.45.187
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
+- name: 🇰🇷 韩国 (South Korea) 05 - lmq8587
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,6 +71,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 02 - lmq8587
   - 🇰🇷 韩国 (South Korea) 03 - lmq8587
   - 🇰🇷 韩国 (South Korea) 04 - lmq8587
+  - 🇰🇷 韩国 (South Korea) 05 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,5 +81,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 02 - lmq8587
   - 🇰🇷 韩国 (South Korea) 03 - lmq8587
   - 🇰🇷 韩国 (South Korea) 04 - lmq8587
+  - 🇰🇷 韩国 (South Korea) 05 - lmq8587
 rules:
 - MATCH,PROXIES

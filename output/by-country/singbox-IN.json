@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - lmq8587"
+        "🇮🇳 印度 (India) 01 - lmq8587",
+        "🇮🇳 印度 (India) 02 - lmq8587",
+        "🇮🇳 印度 (India) 03 - lmq8587",
+        "🇮🇳 印度 (India) 04 - lmq8587",
+        "🇮🇳 印度 (India) 05 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - lmq8587"
+        "🇮🇳 印度 (India) 01 - lmq8587",
+        "🇮🇳 印度 (India) 02 - lmq8587",
+        "🇮🇳 印度 (India) 03 - lmq8587",
+        "🇮🇳 印度 (India) 04 - lmq8587",
+        "🇮🇳 印度 (India) 05 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
