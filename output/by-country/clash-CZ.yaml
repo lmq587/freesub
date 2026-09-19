@@ -6,7 +6,77 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - lmq8587
   type: vless
-  server: 195.85.23.29
+  server: 103.251.167.112
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /library/lang?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇨🇿 CZ 02 - lmq8587
+  type: vless
+  server: 202.181.177.8
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /channels/act
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇨🇿 CZ 03 - lmq8587
+  type: vless
+  server: 195.85.23.45
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 04 - lmq8587
+  type: vless
+  server: 64.225.110.247
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /acg/buy/ajax
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇨🇿 CZ 05 - lmq8587
+  type: vless
+  server: 132.243.203.218
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /v?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇨🇿 CZ 06 - lmq8587
+  type: vless
+  server: 195.85.23.217
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -24,11 +94,21 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 CZ 01 - lmq8587
+  - 🇨🇿 CZ 02 - lmq8587
+  - 🇨🇿 CZ 03 - lmq8587
+  - 🇨🇿 CZ 04 - lmq8587
+  - 🇨🇿 CZ 05 - lmq8587
+  - 🇨🇿 CZ 06 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 CZ 01 - lmq8587
+  - 🇨🇿 CZ 02 - lmq8587
+  - 🇨🇿 CZ 03 - lmq8587
+  - 🇨🇿 CZ 04 - lmq8587
+  - 🇨🇿 CZ 05 - lmq8587
+  - 🇨🇿 CZ 06 - lmq8587
 rules:
 - MATCH,PROXIES
