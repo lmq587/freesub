@@ -4,31 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - lmq8587
+- name: 🇧🇪 BE 01 - lmq8587
   type: vless
-  server: 195.85.23.29
+  server: 35.195.122.169
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
+  reality-opts:
+    public-key: i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - lmq8587
+  - 🇧🇪 BE 01 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - lmq8587
+  - 🇧🇪 BE 01 - lmq8587
 rules:
 - MATCH,PROXIES
