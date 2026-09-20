@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - lmq8587
   type: vless
-  server: 195.85.23.47
+  server: cz1.zuoai.cf
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -15,12 +15,12 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - lmq8587
   type: vless
-  server: 195.85.23.75
+  server: 195.85.23.252
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -29,7 +29,7 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 03 - lmq8587
@@ -48,7 +48,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 04 - lmq8587
   type: vless
-  server: 195.85.23.29
+  server: 195.85.23.88
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -62,35 +62,33 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 05 - lmq8587
   type: vless
-  server: 195.85.23.88
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 151.101.1.194
+  port: 80
+  uuid: e732cb07-4a31-49d3-9122-61dc1f68334e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: simorghfr.global.ssl.fastly.net
 - name: 🇨🇿 CZ 06 - lmq8587
   type: vless
-  server: 195.85.23.252
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 151.101.1.194
+  port: 80
+  uuid: 8c016c41-1e60-457f-bbdf-e66729612079
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: simorghfr.global.ssl.fastly.net
 - name: 🇨🇿 CZ 07 - lmq8587
   type: vless
-  server: 195.85.23.45
+  server: 195.85.23.252
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -104,7 +102,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 08 - lmq8587
   type: vless
-  server: 195.85.23.248
+  server: 195.85.23.29
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -113,12 +111,25 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 09 - lmq8587
   type: vless
-  server: 195.85.23.219
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 10 - lmq8587
+  type: vless
+  server: 195.85.23.29
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -127,9 +138,35 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 11 - lmq8587
+  type: vless
+  server: 162.159.39.218
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇿 CZ 12 - lmq8587
+  type: vless
+  server: 151.101.1.194
+  port: 80
+  uuid: c19dcd53-1fed-4147-bdb6-b3d318c8d9f3
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: simorghfr.global.ssl.fastly.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -144,6 +181,9 @@ proxy-groups:
   - 🇨🇿 CZ 07 - lmq8587
   - 🇨🇿 CZ 08 - lmq8587
   - 🇨🇿 CZ 09 - lmq8587
+  - 🇨🇿 CZ 10 - lmq8587
+  - 🇨🇿 CZ 11 - lmq8587
+  - 🇨🇿 CZ 12 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -158,5 +198,8 @@ proxy-groups:
   - 🇨🇿 CZ 07 - lmq8587
   - 🇨🇿 CZ 08 - lmq8587
   - 🇨🇿 CZ 09 - lmq8587
+  - 🇨🇿 CZ 10 - lmq8587
+  - 🇨🇿 CZ 11 - lmq8587
+  - 🇨🇿 CZ 12 - lmq8587
 rules:
 - MATCH,PROXIES
