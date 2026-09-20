@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 LV 01 - lmq8587"
+        "🇨🇭 CH 01 - lmq8587",
+        "🇨🇭 CH 02 - lmq8587",
+        "🇨🇭 CH 03 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - lmq8587"
+        "🇨🇭 CH 01 - lmq8587",
+        "🇨🇭 CH 02 - lmq8587",
+        "🇨🇭 CH 03 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
