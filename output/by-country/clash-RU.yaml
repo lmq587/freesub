@@ -6,105 +6,6 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - lmq8587
   type: vless
-  server: 104.18.39.218
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 02 - lmq8587
-  type: vless
-  server: 162.159.0.53
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 03 - lmq8587
-  type: vless
-  server: 162.159.39.218
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
-  type: vless
-  server: 162.159.24.131
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
-  type: ss
-  server: 62.113.41.228
-  port: 2055
-  cipher: chacha20-ietf-poly1305
-  password: 7nzDcoQQxUYU35N5ngbSAg
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
-  type: vless
-  server: 162.159.24.131
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 07 - lmq8587
-  type: vless
-  server: 172.67.151.77
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nahan-core.fatitelegram.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.fatitelegram.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 08 - lmq8587
-  type: vless
-  server: 172.64.53.55
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 09 - lmq8587
-  type: vless
   server: 46.8.200.91
   port: 443
   uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
@@ -117,33 +18,34 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 10 - lmq8587
+- name: 🇷🇺 俄罗斯 (Russia) 02 - lmq8587
   type: vless
-  server: 172.64.32.108
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 11 - lmq8587
-  type: vless
-  server: 188.114.96.7
+  server: 45.38.139.23
   port: 8443
-  uuid: 362a79a2-ce89-8d2d-355c-f1f5071a445f
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fragrant-unit-d662.mmammatrix770088.workers.dev
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /sync
+    path: '%2Fjumping%2Fclass%2Fbt%3Fed%3D2560'
     headers:
-      Host: fragrant-unit-d662.mmammatrix770088.workers.dev
+      Host: cdn8848.776676.xyz
+- name: 🇷🇺 俄罗斯 (Russia) 03 - lmq8587
+  type: vless
+  server: 46.101.230.110
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /drama?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -152,14 +54,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 02 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 03 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 07 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 08 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 09 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 10 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 11 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -168,13 +62,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 02 - lmq8587
   - 🇷🇺 俄罗斯 (Russia) 03 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 04 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 05 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 06 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 07 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 08 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 09 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 10 - lmq8587
-  - 🇷🇺 俄罗斯 (Russia) 11 - lmq8587
 rules:
 - MATCH,PROXIES

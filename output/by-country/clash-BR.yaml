@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇭 CH 01 - lmq8587
+- name: 🇧🇷 BR 01 - lmq8587
   type: vless
-  server: 194.154.29.139
+  server: 176.124.220.173
   port: 8443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -15,7 +15,21 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: '%2Fretrieve%2Ftxt%3Fed%3D2560'
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇷 BR 02 - lmq8587
+  type: vless
+  server: 103.31.77.108
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /channels/act
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -23,12 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇭 CH 01 - lmq8587
+  - 🇧🇷 BR 01 - lmq8587
+  - 🇧🇷 BR 02 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇭 CH 01 - lmq8587
+  - 🇧🇷 BR 01 - lmq8587
+  - 🇧🇷 BR 02 - lmq8587
 rules:
 - MATCH,PROXIES
