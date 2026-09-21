@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT 01 - lmq8587",
-        "🇦🇹 AT 02 - lmq8587",
-        "🇦🇹 AT 03 - lmq8587",
-        "🇦🇹 AT 04 - lmq8587"
+        "🇲🇩 MD 01 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - lmq8587",
-        "🇦🇹 AT 02 - lmq8587",
-        "🇦🇹 AT 03 - lmq8587",
-        "🇦🇹 AT 04 - lmq8587"
+        "🇲🇩 MD 01 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },

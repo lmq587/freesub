@@ -24,20 +24,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇲🇾 MY 03 - lmq8587
-  type: vless
-  server: 160.30.54.63
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,7 +31,6 @@ proxy-groups:
   - AUTO
   - 🇲🇾 MY 01 - lmq8587
   - 🇲🇾 MY 02 - lmq8587
-  - 🇲🇾 MY 03 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -53,6 +38,5 @@ proxy-groups:
   proxies:
   - 🇲🇾 MY 01 - lmq8587
   - 🇲🇾 MY 02 - lmq8587
-  - 🇲🇾 MY 03 - lmq8587
 rules:
 - MATCH,PROXIES
