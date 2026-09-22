@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - lmq8587"
+        "🇸🇨 SC 01 - lmq8587",
+        "🇸🇨 SC 02 - lmq8587",
+        "🇸🇨 SC 03 - lmq8587",
+        "🇸🇨 SC 04 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - lmq8587"
+        "🇸🇨 SC 01 - lmq8587",
+        "🇸🇨 SC 02 - lmq8587",
+        "🇸🇨 SC 03 - lmq8587",
+        "🇸🇨 SC 04 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },

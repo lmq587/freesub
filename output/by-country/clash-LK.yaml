@@ -4,31 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - lmq8587
+- name: 🇱🇰 LK 01 - lmq8587
   type: vless
-  server: 160.25.75.40
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 140.245.102.107
+  port: 119
+  uuid: a5da154b-4632-4fc4-8fcb-9495fe195b1b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /html
-    headers:
-      Host: cdn8848.776676.xyz
+  servername: wom.co
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - lmq8587
+  - 🇱🇰 LK 01 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - lmq8587
+  - 🇱🇰 LK 01 - lmq8587
 rules:
 - MATCH,PROXIES

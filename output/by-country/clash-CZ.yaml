@@ -6,214 +6,68 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - lmq8587
   type: vless
-  server: 195.85.23.88
+  server: 104.21.69.37
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /vl/uWq9DFRgj8BwQiSXmZ46
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
 - name: 🇨🇿 CZ 02 - lmq8587
   type: vless
-  server: 195.85.23.252
+  server: 172.67.220.34
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: INDEX.Arcane509.Workers.DEV
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: index.arcane509.workers.dev
 - name: 🇨🇿 CZ 03 - lmq8587
   type: vless
-  server: 195.85.23.219
+  server: 188.114.98.134
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 - name: 🇨🇿 CZ 04 - lmq8587
   type: vless
-  server: 195.85.23.45
+  server: 104.21.8.63
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: b19419fa-8009-455b-b059-765e2856883a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: akbarian34.j9z65ce2uyks.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /vl/Q5xRgb8wfW3RTYFIfDA16PzboJrjLuZ9?ed=2560
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: akbarian34.j9z65ce2uyks.workers.dev
 - name: 🇨🇿 CZ 05 - lmq8587
   type: vless
-  server: 195.85.23.219
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 93.119.195.222
+  port: 48904
+  uuid: 87d65614-5658-4f26-8157-0591489d230a
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - lmq8587
-  type: vless
-  server: 195.85.23.217
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - lmq8587
-  type: vless
-  server: 195.85.23.47
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 08 - lmq8587
-  type: vless
-  server: 195.85.23.111
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 09 - lmq8587
-  type: vless
-  server: 195.85.23.29
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 10 - lmq8587
-  type: vless
-  server: 195.85.23.248
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 11 - lmq8587
-  type: vless
-  server: 195.85.23.252
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 12 - lmq8587
-  type: vless
-  server: 195.85.23.111
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 13 - lmq8587
-  type: vless
-  server: 195.85.23.45
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 14 - lmq8587
-  type: vless
-  server: 195.85.23.75
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 15 - lmq8587
-  type: vless
-  server: 195.85.23.88
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -224,16 +78,6 @@ proxy-groups:
   - 🇨🇿 CZ 03 - lmq8587
   - 🇨🇿 CZ 04 - lmq8587
   - 🇨🇿 CZ 05 - lmq8587
-  - 🇨🇿 CZ 06 - lmq8587
-  - 🇨🇿 CZ 07 - lmq8587
-  - 🇨🇿 CZ 08 - lmq8587
-  - 🇨🇿 CZ 09 - lmq8587
-  - 🇨🇿 CZ 10 - lmq8587
-  - 🇨🇿 CZ 11 - lmq8587
-  - 🇨🇿 CZ 12 - lmq8587
-  - 🇨🇿 CZ 13 - lmq8587
-  - 🇨🇿 CZ 14 - lmq8587
-  - 🇨🇿 CZ 15 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -244,15 +88,5 @@ proxy-groups:
   - 🇨🇿 CZ 03 - lmq8587
   - 🇨🇿 CZ 04 - lmq8587
   - 🇨🇿 CZ 05 - lmq8587
-  - 🇨🇿 CZ 06 - lmq8587
-  - 🇨🇿 CZ 07 - lmq8587
-  - 🇨🇿 CZ 08 - lmq8587
-  - 🇨🇿 CZ 09 - lmq8587
-  - 🇨🇿 CZ 10 - lmq8587
-  - 🇨🇿 CZ 11 - lmq8587
-  - 🇨🇿 CZ 12 - lmq8587
-  - 🇨🇿 CZ 13 - lmq8587
-  - 🇨🇿 CZ 14 - lmq8587
-  - 🇨🇿 CZ 15 - lmq8587
 rules:
 - MATCH,PROXIES
