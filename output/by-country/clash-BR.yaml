@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 AM 01 - lmq8587
+- name: 🇧🇷 BR 01 - lmq8587
   type: vless
-  server: 2.56.204.183
+  server: shuma.ccwu.cc
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -18,9 +18,22 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇦🇲 AM 02 - lmq8587
+- name: 🇧🇷 BR 02 - lmq8587
   type: vless
-  server: 2.56.204.183
+  server: 188.114.97.6
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇧🇷 BR 03 - lmq8587
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -37,14 +50,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 AM 01 - lmq8587
-  - 🇦🇲 AM 02 - lmq8587
+  - 🇧🇷 BR 01 - lmq8587
+  - 🇧🇷 BR 02 - lmq8587
+  - 🇧🇷 BR 03 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 AM 01 - lmq8587
-  - 🇦🇲 AM 02 - lmq8587
+  - 🇧🇷 BR 01 - lmq8587
+  - 🇧🇷 BR 02 - lmq8587
+  - 🇧🇷 BR 03 - lmq8587
 rules:
 - MATCH,PROXIES
