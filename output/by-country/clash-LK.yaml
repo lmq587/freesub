@@ -4,11 +4,11 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇴 RO 01 - lmq8587
+- name: 🇱🇰 LK 01 - lmq8587
   type: vless
-  server: 167.82.101.251
+  server: free.sahanwickramasinghe.me
   port: 80
-  uuid: 0e9f7d2a-2f92-475e-b484-e79568a8a1a2
+  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
   udp: true
   tls: false
   skip-cert-verify: true
@@ -16,18 +16,18 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: Mankiamtr.global.ssl.fastly.net
+      Host: free.sahanwickramasinghe.me
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇴 RO 01 - lmq8587
+  - 🇱🇰 LK 01 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇴 RO 01 - lmq8587
+  - 🇱🇰 LK 01 - lmq8587
 rules:
 - MATCH,PROXIES

@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - lmq8587
   type: vless
-  server: k2.cloud--vpn.site
+  server: 151.101.56.6
   port: 443
   uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
   udp: true
@@ -20,19 +20,6 @@ proxies:
       Host: c12.com
 - name: 🇫🇮 FI 02 - lmq8587
   type: vless
-  server: 146.75.119.82
-  port: 80
-  uuid: c36d624e-a851-486f-bd87-844b1e4d609d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-    headers:
-      Host: rb24.ir
-- name: 🇫🇮 FI 03 - lmq8587
-  type: vless
   server: 151.101.56.6
   port: 443
   uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
@@ -45,55 +32,7 @@ proxies:
     path: /?
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 04 - lmq8587
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 05 - lmq8587
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 06 - lmq8587
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: firefox
-- name: 🇫🇮 FI 07 - lmq8587
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 08 - lmq8587
+- name: 🇫🇮 FI 03 - lmq8587
   type: vless
   server: 185.79.138.71
   port: 448
@@ -113,11 +52,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - lmq8587
   - 🇫🇮 FI 02 - lmq8587
   - 🇫🇮 FI 03 - lmq8587
-  - 🇫🇮 FI 04 - lmq8587
-  - 🇫🇮 FI 05 - lmq8587
-  - 🇫🇮 FI 06 - lmq8587
-  - 🇫🇮 FI 07 - lmq8587
-  - 🇫🇮 FI 08 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,10 +60,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - lmq8587
   - 🇫🇮 FI 02 - lmq8587
   - 🇫🇮 FI 03 - lmq8587
-  - 🇫🇮 FI 04 - lmq8587
-  - 🇫🇮 FI 05 - lmq8587
-  - 🇫🇮 FI 06 - lmq8587
-  - 🇫🇮 FI 07 - lmq8587
-  - 🇫🇮 FI 08 - lmq8587
 rules:
 - MATCH,PROXIES
