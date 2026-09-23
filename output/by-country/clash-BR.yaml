@@ -5,25 +5,270 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - lmq8587
-  type: vmess
-  server: 172.233.14.17
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: shuma.ccwu.cc
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
 - name: 🇧🇷 BR 02 - lmq8587
-  type: vmess
-  server: 172.233.14.17
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.21.98.146
+  port: 8443
+  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cgzdynepurqs.mercury061.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/48493148ec15
+    headers:
+      Host: cgzdynepurqs.mercury061.workers.dev
+- name: 🇧🇷 BR 03 - lmq8587
+  type: vless
+  server: 172.67.77.58
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 04 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 05 - lmq8587
+  type: vless
+  server: 172.67.162.93
+  port: 8880
+  uuid: 94977b19-6720-48a6-92fd-00238757ea30
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fragrant-credit-c4cf.148-e68.workers.dev
+- name: 🇧🇷 BR 06 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 07 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 08 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 09 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 10 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 11 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 12 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 13 - lmq8587
+  type: vless
+  server: 157.151.4.93
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 14 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 15 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 16 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 17 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 18 - lmq8587
+  type: vless
+  server: shuma.ccwu.cc
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 19 - lmq8587
+  type: vless
+  server: 172.67.68.168
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -31,6 +276,23 @@ proxy-groups:
   - AUTO
   - 🇧🇷 BR 01 - lmq8587
   - 🇧🇷 BR 02 - lmq8587
+  - 🇧🇷 BR 03 - lmq8587
+  - 🇧🇷 BR 04 - lmq8587
+  - 🇧🇷 BR 05 - lmq8587
+  - 🇧🇷 BR 06 - lmq8587
+  - 🇧🇷 BR 07 - lmq8587
+  - 🇧🇷 BR 08 - lmq8587
+  - 🇧🇷 BR 09 - lmq8587
+  - 🇧🇷 BR 10 - lmq8587
+  - 🇧🇷 BR 11 - lmq8587
+  - 🇧🇷 BR 12 - lmq8587
+  - 🇧🇷 BR 13 - lmq8587
+  - 🇧🇷 BR 14 - lmq8587
+  - 🇧🇷 BR 15 - lmq8587
+  - 🇧🇷 BR 16 - lmq8587
+  - 🇧🇷 BR 17 - lmq8587
+  - 🇧🇷 BR 18 - lmq8587
+  - 🇧🇷 BR 19 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -38,5 +300,22 @@ proxy-groups:
   proxies:
   - 🇧🇷 BR 01 - lmq8587
   - 🇧🇷 BR 02 - lmq8587
+  - 🇧🇷 BR 03 - lmq8587
+  - 🇧🇷 BR 04 - lmq8587
+  - 🇧🇷 BR 05 - lmq8587
+  - 🇧🇷 BR 06 - lmq8587
+  - 🇧🇷 BR 07 - lmq8587
+  - 🇧🇷 BR 08 - lmq8587
+  - 🇧🇷 BR 09 - lmq8587
+  - 🇧🇷 BR 10 - lmq8587
+  - 🇧🇷 BR 11 - lmq8587
+  - 🇧🇷 BR 12 - lmq8587
+  - 🇧🇷 BR 13 - lmq8587
+  - 🇧🇷 BR 14 - lmq8587
+  - 🇧🇷 BR 15 - lmq8587
+  - 🇧🇷 BR 16 - lmq8587
+  - 🇧🇷 BR 17 - lmq8587
+  - 🇧🇷 BR 18 - lmq8587
+  - 🇧🇷 BR 19 - lmq8587
 rules:
 - MATCH,PROXIES

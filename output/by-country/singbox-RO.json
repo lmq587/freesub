@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - lmq8587"
+        "🇷🇴 RO 01 - lmq8587",
+        "🇷🇴 RO 02 - lmq8587",
+        "🇷🇴 RO 03 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - lmq8587"
+        "🇷🇴 RO 01 - lmq8587",
+        "🇷🇴 RO 02 - lmq8587",
+        "🇷🇴 RO 03 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
