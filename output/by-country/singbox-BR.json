@@ -6,50 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - lmq8587",
-        "🇧🇷 BR 02 - lmq8587",
-        "🇧🇷 BR 03 - lmq8587",
-        "🇧🇷 BR 04 - lmq8587",
-        "🇧🇷 BR 05 - lmq8587",
-        "🇧🇷 BR 06 - lmq8587",
-        "🇧🇷 BR 07 - lmq8587",
-        "🇧🇷 BR 08 - lmq8587",
-        "🇧🇷 BR 09 - lmq8587",
-        "🇧🇷 BR 10 - lmq8587",
-        "🇧🇷 BR 11 - lmq8587",
-        "🇧🇷 BR 12 - lmq8587",
-        "🇧🇷 BR 13 - lmq8587",
-        "🇧🇷 BR 14 - lmq8587",
-        "🇧🇷 BR 15 - lmq8587",
-        "🇧🇷 BR 16 - lmq8587",
-        "🇧🇷 BR 17 - lmq8587",
-        "🇧🇷 BR 18 - lmq8587",
-        "🇧🇷 BR 19 - lmq8587"
+        "🇧🇷 BR 01 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - lmq8587",
-        "🇧🇷 BR 02 - lmq8587",
-        "🇧🇷 BR 03 - lmq8587",
-        "🇧🇷 BR 04 - lmq8587",
-        "🇧🇷 BR 05 - lmq8587",
-        "🇧🇷 BR 06 - lmq8587",
-        "🇧🇷 BR 07 - lmq8587",
-        "🇧🇷 BR 08 - lmq8587",
-        "🇧🇷 BR 09 - lmq8587",
-        "🇧🇷 BR 10 - lmq8587",
-        "🇧🇷 BR 11 - lmq8587",
-        "🇧🇷 BR 12 - lmq8587",
-        "🇧🇷 BR 13 - lmq8587",
-        "🇧🇷 BR 14 - lmq8587",
-        "🇧🇷 BR 15 - lmq8587",
-        "🇧🇷 BR 16 - lmq8587",
-        "🇧🇷 BR 17 - lmq8587",
-        "🇧🇷 BR 18 - lmq8587",
-        "🇧🇷 BR 19 - lmq8587"
+        "🇧🇷 BR 01 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
