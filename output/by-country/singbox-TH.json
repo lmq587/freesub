@@ -6,36 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - lmq8587",
-        "🇹🇭 TH 02 - lmq8587",
-        "🇹🇭 TH 03 - lmq8587",
-        "🇹🇭 TH 04 - lmq8587",
-        "🇹🇭 TH 05 - lmq8587",
-        "🇹🇭 TH 06 - lmq8587",
-        "🇹🇭 TH 07 - lmq8587",
-        "🇹🇭 TH 08 - lmq8587",
-        "🇹🇭 TH 09 - lmq8587",
-        "🇹🇭 TH 10 - lmq8587",
-        "🇹🇭 TH 11 - lmq8587",
-        "🇹🇭 TH 12 - lmq8587"
+        "🇹🇭 TH 01 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - lmq8587",
-        "🇹🇭 TH 02 - lmq8587",
-        "🇹🇭 TH 03 - lmq8587",
-        "🇹🇭 TH 04 - lmq8587",
-        "🇹🇭 TH 05 - lmq8587",
-        "🇹🇭 TH 06 - lmq8587",
-        "🇹🇭 TH 07 - lmq8587",
-        "🇹🇭 TH 08 - lmq8587",
-        "🇹🇭 TH 09 - lmq8587",
-        "🇹🇭 TH 10 - lmq8587",
-        "🇹🇭 TH 11 - lmq8587",
-        "🇹🇭 TH 12 - lmq8587"
+        "🇹🇭 TH 01 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
