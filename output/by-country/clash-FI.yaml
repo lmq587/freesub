@@ -5,40 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - lmq8587
-  type: vmess
-  server: me6.movieseryalirani.ir
-  port: 57361
-  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 02 - lmq8587
-  type: vless
-  server: 84.22.150.39
-  port: 7443
-  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇫🇮 FI 03 - lmq8587
-  type: vmess
-  server: me6.movieseryalirani.ir
-  port: 57361
-  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 04 - lmq8587
   type: vless
   server: 151.101.56.6
   port: 443
@@ -52,7 +18,21 @@ proxies:
     path: /?TELEGRAM--BYA---@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 05 - lmq8587
+- name: 🇫🇮 FI 02 - lmq8587
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 03 - lmq8587
   type: vless
   server: k2.cloud--vpn.site
   port: 443
@@ -66,17 +46,7 @@ proxies:
     path: /?edTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 06 - lmq8587
-  type: vmess
-  server: me6.movieseryalirani.ir
-  port: 57361
-  uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 07 - lmq8587
+- name: 🇫🇮 FI 04 - lmq8587
   type: vless
   server: a2.arshia-nova.ir
   port: 443
@@ -90,9 +60,9 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 08 - lmq8587
+- name: 🇫🇮 FI 05 - lmq8587
   type: vless
-  server: k2.cloud--vpn.site
+  server: 151.101.56.6
   port: 443
   uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
   udp: true
@@ -101,7 +71,7 @@ proxies:
   servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM--BYA---@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud
     headers:
       Host: c12.com
 proxy-groups:
@@ -114,9 +84,6 @@ proxy-groups:
   - 🇫🇮 FI 03 - lmq8587
   - 🇫🇮 FI 04 - lmq8587
   - 🇫🇮 FI 05 - lmq8587
-  - 🇫🇮 FI 06 - lmq8587
-  - 🇫🇮 FI 07 - lmq8587
-  - 🇫🇮 FI 08 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -127,8 +94,5 @@ proxy-groups:
   - 🇫🇮 FI 03 - lmq8587
   - 🇫🇮 FI 04 - lmq8587
   - 🇫🇮 FI 05 - lmq8587
-  - 🇫🇮 FI 06 - lmq8587
-  - 🇫🇮 FI 07 - lmq8587
-  - 🇫🇮 FI 08 - lmq8587
 rules:
 - MATCH,PROXIES
