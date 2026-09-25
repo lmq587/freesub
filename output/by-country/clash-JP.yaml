@@ -15,8 +15,15 @@ proxies:
   reality-opts:
     public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: ios
 - name: 🇯🇵 日本 (Japan) 02 - lmq8587
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 03 - lmq8587
   type: vless
   server: 34.84.126.188
   port: 443
@@ -27,16 +34,23 @@ proxies:
   reality-opts:
     public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 03 - lmq8587
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  client-fingerprint: edge
+- name: 🇯🇵 日本 (Japan) 04 - lmq8587
+  type: vmess
+  server: 147.78.242.19
+  port: 81
+  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 04 - lmq8587
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇯🇵 日本 (Japan) 05 - lmq8587
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -46,27 +60,16 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 05 - lmq8587
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
 - name: 🇯🇵 日本 (Japan) 06 - lmq8587
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 07 - lmq8587
   type: vmess
   server: 45.32.57.118
@@ -78,6 +81,58 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 08 - lmq8587
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 09 - lmq8587
+  type: vless
+  server: 34.84.126.188
+  port: 443
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 10 - lmq8587
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 11 - lmq8587
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 12 - lmq8587
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 13 - lmq8587
   type: vmess
   server: 64.176.51.214
   port: 23462
@@ -91,60 +146,7 @@ proxies:
   ws-opts:
     path: /a15206
     headers:
-      Host: ''
-- name: 🇯🇵 日本 (Japan) 09 - lmq8587
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 - lmq8587
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 11 - lmq8587
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 12 - lmq8587
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 13 - lmq8587
-  type: vless
-  server: 34.84.126.188
-  port: 443
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+      Host: 64.176.51.214
 - name: 🇯🇵 日本 (Japan) 14 - lmq8587
   type: vmess
   server: 45.32.57.118
@@ -157,6 +159,14 @@ proxies:
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 15 - lmq8587
   type: vless
+  server: 20.78.4.41
+  port: 443
+  uuid: 8dc3a9ee-51a6-4737-c40a-472246303713
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 16 - lmq8587
+  type: vless
   server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -169,7 +179,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 16 - lmq8587
+- name: 🇯🇵 日本 (Japan) 17 - lmq8587
   type: vless
   server: 34.84.126.188
   port: 443
@@ -181,22 +191,18 @@ proxies:
     public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 17 - lmq8587
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 18 - lmq8587
   type: vless
-  server: 20.78.4.41
+  server: 34.84.126.188
   port: 443
-  uuid: 8dc3a9ee-51a6-4737-c40a-472246303713
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+  servername: www.cloudflare.com
+  client-fingerprint: qq
 - name: 🇯🇵 日本 (Japan) 19 - lmq8587
   type: vmess
   server: 45.32.57.118
@@ -209,21 +215,29 @@ proxies:
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 20 - lmq8587
   type: vmess
-  server: or.521166.xyz
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: or.521166.xyz
-  network: ws
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or.521166.xyz
 - name: 🇯🇵 日本 (Japan) 21 - lmq8587
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 22 - lmq8587
+  type: ss
+  server: 212.192.221.76
+  port: 10090
+  cipher: aes-256-gcm
+  password: 9cfaa78d51ac366f
+  udp: true
+- name: 🇯🇵 日本 (Japan) 23 - lmq8587
   type: vless
   server: 34.84.126.188
   port: 443
@@ -235,19 +249,32 @@ proxies:
     public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 22 - lmq8587
-  type: vless
-  server: 34.84.126.188
-  port: 443
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+- name: 🇯🇵 日本 (Japan) 24 - lmq8587
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇯🇵 日本 (Japan) 23 - lmq8587
+- name: 🇯🇵 日本 (Japan) 25 - lmq8587
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 26 - lmq8587
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 27 - lmq8587
   type: vless
   server: 172.67.217.240
   port: 443
@@ -261,72 +288,37 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 24 - lmq8587
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 25 - lmq8587
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 26 - lmq8587
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 27 - lmq8587
-  type: vless
-  server: 34.84.126.188
-  port: 443
-  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
-  servername: www.cloudflare.com
-  client-fingerprint: ios
 - name: 🇯🇵 日本 (Japan) 28 - lmq8587
   type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  server: 147.78.242.19
+  port: 81
+  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
 - name: 🇯🇵 日本 (Japan) 29 - lmq8587
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 30 - lmq8587
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  type: vmess
+  server: 147.78.242.19
+  port: 81
+  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 31 - lmq8587
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇯🇵 日本 (Japan) 30 - lmq8587
   type: vmess
   server: 147.78.242.19
   port: 81
@@ -376,7 +368,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 28 - lmq8587
   - 🇯🇵 日本 (Japan) 29 - lmq8587
   - 🇯🇵 日本 (Japan) 30 - lmq8587
-  - 🇯🇵 日本 (Japan) 31 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -412,6 +403,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 28 - lmq8587
   - 🇯🇵 日本 (Japan) 29 - lmq8587
   - 🇯🇵 日本 (Japan) 30 - lmq8587
-  - 🇯🇵 日本 (Japan) 31 - lmq8587
 rules:
 - MATCH,PROXIES
