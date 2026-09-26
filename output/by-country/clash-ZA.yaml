@@ -5,12 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇿🇦 ZA 01 - lmq8587
-  type: ss
-  server: 20.164.220.82
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: Qy7KyMo4epSCiluJ
+  type: vless
+  server: platform106.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.golnamakcert.top
 - name: 🇿🇦 ZA 02 - lmq8587
   type: ss
   server: 139.84.247.164
@@ -20,11 +26,96 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 03 - lmq8587
   type: ss
-  server: 102.133.165.160
-  port: 16233
+  server: 20.164.220.82
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  password: Qy7KyMo4epSCiluJ
   udp: true
+- name: 🇿🇦 ZA 04 - lmq8587
+  type: vless
+  server: platform109.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform109
+    headers:
+      Host: platform109.golnamakcert.top
+- name: 🇿🇦 ZA 05 - lmq8587
+  type: vless
+  server: platform107.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.halalkhor.info
+- name: 🇿🇦 ZA 06 - lmq8587
+  type: vless
+  server: platform106.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.halalkhor.info
+- name: 🇿🇦 ZA 07 - lmq8587
+  type: vless
+  server: platform101.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform101
+    headers:
+      Host: platform101.halalkhor.info
+- name: 🇿🇦 ZA 08 - lmq8587
+  type: ss
+  server: 102.37.156.224
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: 🇿🇦 ZA 09 - lmq8587
+  type: vless
+  server: platform108.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform108
+    headers:
+      Host: platform108.halalkhor.info
+- name: 🇿🇦 ZA 10 - lmq8587
+  type: vless
+  server: platform107.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.golnamakcert.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +124,13 @@ proxy-groups:
   - 🇿🇦 ZA 01 - lmq8587
   - 🇿🇦 ZA 02 - lmq8587
   - 🇿🇦 ZA 03 - lmq8587
+  - 🇿🇦 ZA 04 - lmq8587
+  - 🇿🇦 ZA 05 - lmq8587
+  - 🇿🇦 ZA 06 - lmq8587
+  - 🇿🇦 ZA 07 - lmq8587
+  - 🇿🇦 ZA 08 - lmq8587
+  - 🇿🇦 ZA 09 - lmq8587
+  - 🇿🇦 ZA 10 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -41,5 +139,12 @@ proxy-groups:
   - 🇿🇦 ZA 01 - lmq8587
   - 🇿🇦 ZA 02 - lmq8587
   - 🇿🇦 ZA 03 - lmq8587
+  - 🇿🇦 ZA 04 - lmq8587
+  - 🇿🇦 ZA 05 - lmq8587
+  - 🇿🇦 ZA 06 - lmq8587
+  - 🇿🇦 ZA 07 - lmq8587
+  - 🇿🇦 ZA 08 - lmq8587
+  - 🇿🇦 ZA 09 - lmq8587
+  - 🇿🇦 ZA 10 - lmq8587
 rules:
 - MATCH,PROXIES
