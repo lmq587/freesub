@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - lmq8587"
+        "🇵🇱 PL 01 - lmq8587",
+        "🇵🇱 PL 02 - lmq8587",
+        "🇵🇱 PL 03 - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - lmq8587"
+        "🇵🇱 PL 01 - lmq8587",
+        "🇵🇱 PL 02 - lmq8587",
+        "🇵🇱 PL 03 - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
