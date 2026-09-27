@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - lmq8587
   type: vless
-  server: 108.162.198.178
-  port: 8080
+  server: 162.159.39.218
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 02 - lmq8587
   type: vless
-  server: 172.64.229.170
-  port: 2095
+  server: 172.64.52.6
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -32,8 +32,8 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 03 - lmq8587
   type: vless
-  server: 172.64.229.2
-  port: 8880
+  server: 172.64.53.55
+  port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -44,391 +44,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 04 - lmq8587
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 05 - lmq8587
-  type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 06 - lmq8587
-  type: vless
-  server: 172.66.43.95
-  port: 443
-  uuid: c47eb7ab-2c2d-44e0-80cc-bb104f89a137
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.terence-tunnel.org
-  network: ws
-  ws-opts:
-    path: /tunnel
-    headers:
-      Host: www.terence-tunnel.org
-- name: 🌐 其他地区 (Other) 07 - lmq8587
-  type: vless
-  server: 162.159.43.187
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 08 - lmq8587
-  type: vless
-  server: 162.159.39.218
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 09 - lmq8587
-  type: vless
-  server: 104.18.34.14
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 10 - lmq8587
-  type: vless
-  server: 104.18.34.14
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 11 - lmq8587
-  type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 12 - lmq8587
-  type: vless
-  server: 162.159.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 13 - lmq8587
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 14 - lmq8587
-  type: vless
-  server: 162.159.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 15 - lmq8587
-  type: vless
-  server: 162.159.39.218
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 16 - lmq8587
-  type: vless
-  server: 162.159.24.131
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 17 - lmq8587
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 18 - lmq8587
-  type: vless
-  server: 104.18.46.234
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 19 - lmq8587
-  type: vless
-  server: 104.16.10.48
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 20 - lmq8587
-  type: vless
-  server: 162.159.48.32
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 21 - lmq8587
-  type: vless
-  server: 104.18.46.46
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 22 - lmq8587
-  type: vless
-  server: 162.159.48.32
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 23 - lmq8587
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 24 - lmq8587
-  type: vless
-  server: 162.159.48.32
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 25 - lmq8587
-  type: vless
-  server: 162.159.48.32
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 26 - lmq8587
-  type: vless
-  server: 104.18.34.14
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 27 - lmq8587
-  type: vless
-  server: 104.16.10.2
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 28 - lmq8587
-  type: vless
-  server: 172.64.229.170
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 29 - lmq8587
-  type: vless
-  server: 162.159.0.53
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 30 - lmq8587
-  type: vless
-  server: 172.67.204.201
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
-- name: 🌐 其他地区 (Other) 31 - lmq8587
-  type: vless
-  server: 104.21.45.198
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: Img-EDGE-m16-2.caNaDa-ONliNE.eu.Cc
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: IMG-eDgE-m16-2.CaNaDA-online.eu.cc
-- name: 🌐 其他地区 (Other) 32 - lmq8587
-  type: vless
-  server: 104.18.46.234
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 33 - lmq8587
   type: vless
   server: 104.18.39.218
   port: 2086
@@ -441,21 +56,477 @@ proxies:
     path: /?ed=2560security=tlssecurity=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 34 - lmq8587
+- name: 🌐 其他地区 (Other) 05 - lmq8587
   type: vless
-  server: 104.18.153.10
+  server: 162.159.43.187
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 06 - lmq8587
+  type: vless
+  server: 172.64.154.8
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 07 - lmq8587
+  type: vless
+  server: 162.159.24.131
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 08 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 09 - lmq8587
+  type: vless
+  server: 108.162.198.178
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 10 - lmq8587
+  type: vless
+  server: 172.64.158.146
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 11 - lmq8587
+  type: vless
+  server: 172.64.42.85
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 12 - lmq8587
+  type: vless
+  server: 172.64.53.55
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 13 - lmq8587
+  type: vless
+  server: 162.159.45.19
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 14 - lmq8587
+  type: vless
+  server: 172.64.229.170
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 15 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 16 - lmq8587
+  type: vless
+  server: 108.162.198.178
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 17 - lmq8587
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 18 - lmq8587
+  type: vless
+  server: 172.64.52.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 19 - lmq8587
+  type: vless
+  server: 172.64.229.170
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 20 - lmq8587
+  type: vless
+  server: 172.64.229.2
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 21 - lmq8587
+  type: vless
+  server: 162.159.38.127
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 22 - lmq8587
+  type: vless
+  server: 104.21.37.55
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: 6-m16.cHiaN-MAI-8.kDnS.Fr
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: jp3.yohototo.top
+      Host: 6-M16.chian-mAI-8.KdNs.fR
+- name: 🌐 其他地区 (Other) 23 - lmq8587
+  type: vless
+  server: 172.64.42.85
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 24 - lmq8587
+  type: vless
+  server: 172.64.229.170
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 25 - lmq8587
+  type: vless
+  server: 172.64.53.55
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 26 - lmq8587
+  type: vless
+  server: 162.159.0.53
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 27 - lmq8587
+  type: vless
+  server: 172.64.42.85
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 28 - lmq8587
+  type: vless
+  server: 162.159.38.127
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 29 - lmq8587
+  type: vless
+  server: 162.159.38.127
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 30 - lmq8587
+  type: vless
+  server: 172.64.52.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 31 - lmq8587
+  type: vless
+  server: 162.159.0.53
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 32 - lmq8587
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 33 - lmq8587
+  type: vless
+  server: 172.64.158.146
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 34 - lmq8587
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 35 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 36 - lmq8587
+  type: vless
+  server: 172.64.32.103
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 37 - lmq8587
+  type: vless
+  server: 104.18.26.90
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 38 - lmq8587
+  type: vless
+  server: 162.159.48.32
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 39 - lmq8587
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 40 - lmq8587
+  type: vless
+  server: 162.159.45.19
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 41 - lmq8587
   type: vless
   server: 162.159.24.131
   port: 8080
@@ -468,7 +539,294 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 36 - lmq8587
+- name: 🌐 其他地区 (Other) 42 - lmq8587
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 43 - lmq8587
+  type: vless
+  server: 104.18.46.46
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 44 - lmq8587
+  type: vless
+  server: 162.159.38.127
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 45 - lmq8587
+  type: vless
+  server: 172.64.229.2
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 46 - lmq8587
+  type: vless
+  server: 162.159.43.187
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 47 - lmq8587
+  type: vless
+  server: 172.64.229.2
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 48 - lmq8587
+  type: vless
+  server: 162.159.24.131
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 49 - lmq8587
+  type: vless
+  server: 162.159.39.218
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 50 - lmq8587
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 51 - lmq8587
+  type: vless
+  server: 162.159.0.169
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 52 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 53 - lmq8587
+  type: vless
+  server: 172.64.53.55
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 54 - lmq8587
+  type: vless
+  server: 162.159.45.19
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 55 - lmq8587
+  type: vless
+  server: 162.159.38.127
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 56 - lmq8587
+  type: vless
+  server: 162.159.24.131
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 57 - lmq8587
+  type: vless
+  server: 162.159.39.218
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 58 - lmq8587
+  type: vless
+  server: 162.159.39.218
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 59 - lmq8587
+  type: vless
+  server: 172.67.169.99
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 5-M16.PHukeT2035.Kdns.FR
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 5-m16.PHukeT2035.KDnS.FR
+- name: 🌐 其他地区 (Other) 60 - lmq8587
+  type: vless
+  server: 162.159.39.218
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 61 - lmq8587
+  type: vless
+  server: 172.64.154.8
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 62 - lmq8587
+  type: vless
+  server: 172.64.229.170
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 63 - lmq8587
+  type: vless
+  server: 188.114.97.6
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 64 - lmq8587
   type: vless
   server: 172.67.149.248
   port: 443
@@ -482,7 +840,20 @@ proxies:
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
       Host: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
-- name: 🌐 其他地区 (Other) 37 - lmq8587
+- name: 🌐 其他地区 (Other) 65 - lmq8587
+  type: vless
+  server: 172.64.53.55
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 66 - lmq8587
   type: vless
   server: 172.64.229.170
   port: 2095
@@ -495,25 +866,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 38 - lmq8587
-  type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 39 - lmq8587
+- name: 🌐 其他地区 (Other) 67 - lmq8587
   type: vless
-  server: 172.64.229.2
+  server: 162.159.24.131
   port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -524,9 +879,9 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 40 - lmq8587
+- name: 🌐 其他地区 (Other) 68 - lmq8587
   type: vless
-  server: 172.64.53.55
+  server: 104.18.39.218
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -537,9 +892,87 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 41 - lmq8587
+- name: 🌐 其他地区 (Other) 69 - lmq8587
   type: vless
-  server: 104.18.42.98
+  server: 172.64.52.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 70 - lmq8587
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 71 - lmq8587
+  type: vless
+  server: 172.64.53.55
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 72 - lmq8587
+  type: vless
+  server: 162.159.39.218
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 73 - lmq8587
+  type: vless
+  server: 172.64.52.6
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 74 - lmq8587
+  type: vless
+  server: 162.159.45.19
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 75 - lmq8587
+  type: vless
+  server: 162.159.254.3
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -551,7 +984,33 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 42 - lmq8587
+- name: 🌐 其他地区 (Other) 76 - lmq8587
+  type: vless
+  server: 162.159.45.19
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 77 - lmq8587
+  type: vless
+  server: 104.18.46.46
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 78 - lmq8587
   type: vless
   server: 104.18.34.14
   port: 2086
@@ -564,100 +1023,19 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 43 - lmq8587
+- name: 🌐 其他地区 (Other) 79 - lmq8587
   type: vless
-  server: 172.67.220.153
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-M16.ChIAnG-MAi2031.kdns.Fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
-- name: 🌐 其他地区 (Other) 44 - lmq8587
-  type: vless
-  server: 104.18.46.46
-  port: 8880
+  server: 108.162.198.178
+  port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
+    path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 45 - lmq8587
-  type: vless
-  server: 104.21.91.102
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4-M16.aYUtTHAya2031.kdnS.fR
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 4-M16.aYUtTHAya2031.kdnS.fR
-- name: 🌐 其他地区 (Other) 46 - lmq8587
-  type: vless
-  server: 162.159.24.131
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 47 - lmq8587
-  type: vless
-  server: 172.64.32.103
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 48 - lmq8587
-  type: vless
-  server: 104.21.87.109
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7-m16.PhUkEt2035.kdNS.fr
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: 7-m16.PhUkEt2035.kdNS.fr
-- name: 🌐 其他地区 (Other) 49 - lmq8587
-  type: vless
-  server: 188.114.97.6
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -712,6 +1090,36 @@ proxy-groups:
   - 🌐 其他地区 (Other) 47 - lmq8587
   - 🌐 其他地区 (Other) 48 - lmq8587
   - 🌐 其他地区 (Other) 49 - lmq8587
+  - 🌐 其他地区 (Other) 50 - lmq8587
+  - 🌐 其他地区 (Other) 51 - lmq8587
+  - 🌐 其他地区 (Other) 52 - lmq8587
+  - 🌐 其他地区 (Other) 53 - lmq8587
+  - 🌐 其他地区 (Other) 54 - lmq8587
+  - 🌐 其他地区 (Other) 55 - lmq8587
+  - 🌐 其他地区 (Other) 56 - lmq8587
+  - 🌐 其他地区 (Other) 57 - lmq8587
+  - 🌐 其他地区 (Other) 58 - lmq8587
+  - 🌐 其他地区 (Other) 59 - lmq8587
+  - 🌐 其他地区 (Other) 60 - lmq8587
+  - 🌐 其他地区 (Other) 61 - lmq8587
+  - 🌐 其他地区 (Other) 62 - lmq8587
+  - 🌐 其他地区 (Other) 63 - lmq8587
+  - 🌐 其他地区 (Other) 64 - lmq8587
+  - 🌐 其他地区 (Other) 65 - lmq8587
+  - 🌐 其他地区 (Other) 66 - lmq8587
+  - 🌐 其他地区 (Other) 67 - lmq8587
+  - 🌐 其他地区 (Other) 68 - lmq8587
+  - 🌐 其他地区 (Other) 69 - lmq8587
+  - 🌐 其他地区 (Other) 70 - lmq8587
+  - 🌐 其他地区 (Other) 71 - lmq8587
+  - 🌐 其他地区 (Other) 72 - lmq8587
+  - 🌐 其他地区 (Other) 73 - lmq8587
+  - 🌐 其他地区 (Other) 74 - lmq8587
+  - 🌐 其他地区 (Other) 75 - lmq8587
+  - 🌐 其他地区 (Other) 76 - lmq8587
+  - 🌐 其他地区 (Other) 77 - lmq8587
+  - 🌐 其他地区 (Other) 78 - lmq8587
+  - 🌐 其他地区 (Other) 79 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -766,5 +1174,35 @@ proxy-groups:
   - 🌐 其他地区 (Other) 47 - lmq8587
   - 🌐 其他地区 (Other) 48 - lmq8587
   - 🌐 其他地区 (Other) 49 - lmq8587
+  - 🌐 其他地区 (Other) 50 - lmq8587
+  - 🌐 其他地区 (Other) 51 - lmq8587
+  - 🌐 其他地区 (Other) 52 - lmq8587
+  - 🌐 其他地区 (Other) 53 - lmq8587
+  - 🌐 其他地区 (Other) 54 - lmq8587
+  - 🌐 其他地区 (Other) 55 - lmq8587
+  - 🌐 其他地区 (Other) 56 - lmq8587
+  - 🌐 其他地区 (Other) 57 - lmq8587
+  - 🌐 其他地区 (Other) 58 - lmq8587
+  - 🌐 其他地区 (Other) 59 - lmq8587
+  - 🌐 其他地区 (Other) 60 - lmq8587
+  - 🌐 其他地区 (Other) 61 - lmq8587
+  - 🌐 其他地区 (Other) 62 - lmq8587
+  - 🌐 其他地区 (Other) 63 - lmq8587
+  - 🌐 其他地区 (Other) 64 - lmq8587
+  - 🌐 其他地区 (Other) 65 - lmq8587
+  - 🌐 其他地区 (Other) 66 - lmq8587
+  - 🌐 其他地区 (Other) 67 - lmq8587
+  - 🌐 其他地区 (Other) 68 - lmq8587
+  - 🌐 其他地区 (Other) 69 - lmq8587
+  - 🌐 其他地区 (Other) 70 - lmq8587
+  - 🌐 其他地区 (Other) 71 - lmq8587
+  - 🌐 其他地区 (Other) 72 - lmq8587
+  - 🌐 其他地区 (Other) 73 - lmq8587
+  - 🌐 其他地区 (Other) 74 - lmq8587
+  - 🌐 其他地区 (Other) 75 - lmq8587
+  - 🌐 其他地区 (Other) 76 - lmq8587
+  - 🌐 其他地区 (Other) 77 - lmq8587
+  - 🌐 其他地区 (Other) 78 - lmq8587
+  - 🌐 其他地区 (Other) 79 - lmq8587
 rules:
 - MATCH,PROXIES
