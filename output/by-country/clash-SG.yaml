@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - lmq8587
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -16,14 +16,29 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 02 - lmq8587
   type: vless
-  server: 129.150.51.127
-  port: 49289
-  uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
+  server: 27.50.49.154
+  port: 2083
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: www.microsoft.com
+  servername: proxy-34l.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proxy-34l.pages.dev
 - name: 🇸🇬 新加坡 (Singapore) 03 - lmq8587
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 04 - lmq8587
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -33,7 +48,21 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 04 - lmq8587
+- name: 🇸🇬 新加坡 (Singapore) 05 - lmq8587
+  type: vless
+  server: 43.160.220.86
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mia0.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia0.pages.dev
+- name: 🇸🇬 新加坡 (Singapore) 06 - lmq8587
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -45,7 +74,7 @@ proxies:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 05 - lmq8587
+- name: 🇸🇬 新加坡 (Singapore) 07 - lmq8587
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -56,18 +85,8 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 06 - lmq8587
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 07 - lmq8587
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 08 - lmq8587
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -77,15 +96,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 08 - lmq8587
-  type: vless
-  server: onhit.shalana.xyz
-  port: 443
-  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: onhit.shalana.xyz
 - name: 🇸🇬 新加坡 (Singapore) 09 - lmq8587
   type: vless
   server: 217.217.254.126
@@ -97,18 +107,38 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 10 - lmq8587
   type: vmess
-  server: magicvip.iddns.ir
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 11 - lmq8587
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 12 - lmq8587
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 13 - lmq8587
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -119,65 +149,35 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 12 - lmq8587
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 13 - lmq8587
-  type: vless
-  server: 104.18.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 14 - lmq8587
   type: vless
-  server: 172.64.229.2
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 162.159.156.214
+  port: 8880
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: soft-band-8da6.426.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 15 - lmq8587
   type: vless
-  server: 134.122.154.210
+  server: 104.17.3.81
   port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: nautica-cff.kloningstrife002.workers.dev
+  network: ws
+  ws-opts:
+    path: /138.2.74.219-28616
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 16 - lmq8587
-  type: vmess
-  server: 172.237.70.226
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 17 - lmq8587
   type: vless
   server: onhit.shalana.xyz
   port: 443
@@ -186,35 +186,48 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: onhit.shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 18 - lmq8587
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 19 - lmq8587
+- name: 🇸🇬 新加坡 (Singapore) 17 - lmq8587
   type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  server: 156.224.76.205
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
+  servername: vp10.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp10.pages.dev
+- name: 🇸🇬 新加坡 (Singapore) 18 - lmq8587
+  type: vless
+  server: 84.22.150.39
+  port: 7443
+  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 19 - lmq8587
+  type: vless
+  server: 129.150.51.127
+  port: 49289
+  uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: www.microsoft.com
 - name: 🇸🇬 新加坡 (Singapore) 20 - lmq8587
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 134.122.154.210
+  port: 443
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
   udp: true
   tls: false
   skip-cert-verify: true
@@ -229,60 +242,32 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 22 - lmq8587
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  type: vmess
+  server: 172.237.70.226
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇸🇬 新加坡 (Singapore) 23 - lmq8587
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 24 - lmq8587
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 25 - lmq8587
   type: vless
-  server: 172.236.142.114
+  server: 116.251.217.65
   port: 443
-  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
+  uuid: 2388e166-3890-33ae-f77e-efac00000002
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: onhit.shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 26 - lmq8587
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 27 - lmq8587
+  servername: netlivpn4813.ddhshhshs.workers.dev
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn4813.ddhshhshs.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 24 - lmq8587
   type: vless
   server: 217.217.254.126
   port: 2053
@@ -293,10 +278,37 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 28 - lmq8587
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 25 - lmq8587
+  type: vless
+  server: 47.131.189.221
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mia7.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia7.pages.dev
+- name: 🇸🇬 新加坡 (Singapore) 26 - lmq8587
+  type: vless
+  server: 172.66.214.247
+  port: 8880
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: sweet-sun-c70f.317-ba5.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 27 - lmq8587
   type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -304,15 +316,30 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 28 - lmq8587
+  type: vmess
+  server: magicvip.iddns.ir
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 29 - lmq8587
   type: vless
-  server: 129.150.51.127
-  port: 49289
-  uuid: 0590ab38-cb22-41d3-8312-6f396a5cec58
+  server: 149.118.48.187
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: www.microsoft.com
+  servername: mia4.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia4.pages.dev
 - name: 🇸🇬 新加坡 (Singapore) 30 - lmq8587
   type: vless
   server: 217.217.254.126
@@ -326,16 +353,90 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 31 - lmq8587
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 172.236.142.114
+  port: 443
+  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: onhit.shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 32 - lmq8587
+  type: vless
+  server: 188.114.96.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 33 - lmq8587
+  type: vless
+  server: 43.160.203.174
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mia0.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia0.pages.dev
+- name: 🇸🇬 新加坡 (Singapore) 34 - lmq8587
+  type: vless
+  server: anydesk.com
+  port: 8880
+  uuid: 984d10dd-4d51-45ac-a781-f0c1357644c2
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 32 - lmq8587
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: lingering-sun-d7b5.49-56e.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 35 - lmq8587
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 36 - lmq8587
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇸🇬 新加坡 (Singapore) 37 - lmq8587
+  type: vless
+  server: onhit.shalana.xyz
+  port: 443
+  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: onhit.shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 38 - lmq8587
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -345,7 +446,68 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 33 - lmq8587
+- name: 🇸🇬 新加坡 (Singapore) 39 - lmq8587
+  type: vless
+  server: 172.236.142.114
+  port: 443
+  uuid: 408fbae6-a40b-4f0b-9723-0b4ce8e3d035
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: onhit.shalana.xyz
+- name: 🇸🇬 新加坡 (Singapore) 40 - lmq8587
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 41 - lmq8587
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 42 - lmq8587
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 43 - lmq8587
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 44 - lmq8587
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 45 - lmq8587
   type: vless
   server: onhit.shalana.xyz
   port: 443
@@ -354,19 +516,20 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: onhit.shalana.xyz
-- name: 🇸🇬 新加坡 (Singapore) 34 - lmq8587
+- name: 🇸🇬 新加坡 (Singapore) 46 - lmq8587
   type: vless
-  server: 162.159.24.131
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 27.50.49.154
+  port: 2083
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: proxy-34l.pages.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: proxy-34l.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -406,6 +569,18 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 32 - lmq8587
   - 🇸🇬 新加坡 (Singapore) 33 - lmq8587
   - 🇸🇬 新加坡 (Singapore) 34 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 35 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 36 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 37 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 38 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 39 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 40 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 41 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 42 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 43 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 44 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 45 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 46 - lmq8587
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -445,5 +620,17 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 32 - lmq8587
   - 🇸🇬 新加坡 (Singapore) 33 - lmq8587
   - 🇸🇬 新加坡 (Singapore) 34 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 35 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 36 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 37 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 38 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 39 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 40 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 41 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 42 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 43 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 44 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 45 - lmq8587
+  - 🇸🇬 新加坡 (Singapore) 46 - lmq8587
 rules:
 - MATCH,PROXIES
