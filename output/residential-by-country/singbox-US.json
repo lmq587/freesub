@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇬 KG 01 - lmq8587",
-        "🇰🇬 KG 02 - lmq8587",
-        "🇰🇬 KG 03 - lmq8587",
-        "🇰🇬 KG 04 - lmq8587",
-        "🇰🇬 KG 05 - lmq8587"
+        "🇺🇸 美国 (United States) 01 (家宽) - lmq8587"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇬 KG 01 - lmq8587",
-        "🇰🇬 KG 02 - lmq8587",
-        "🇰🇬 KG 03 - lmq8587",
-        "🇰🇬 KG 04 - lmq8587",
-        "🇰🇬 KG 05 - lmq8587"
+        "🇺🇸 美国 (United States) 01 (家宽) - lmq8587"
       ],
       "url": "https://www.google.com/generate_204"
     },
